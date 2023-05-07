@@ -12,3 +12,9 @@ BOT = Client(
     api_hash=API_HASH,
     bot_token=BOT_TOKEN
 )
+
+
+
+print("Bot started")
+
+BOT.run()
