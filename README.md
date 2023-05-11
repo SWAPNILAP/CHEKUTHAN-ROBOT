@@ -12,7 +12,7 @@
 
 
 
-API_ID    - YOUR API ID, 
+API_ID    - YOUR API ID,<a href="https://my.telegram.org/apps"> TELEGRAM API</a>
 
 API_HASH  - YOUR API HASH, 
 
