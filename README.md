@@ -1,6 +1,7 @@
 # Myoncoding 
 
 
+![Typing SVG](https://t.me/Lion_098765/?lines=welcome+to+Pyrogram+bot+by+Chekuthan!)
 
 
 
