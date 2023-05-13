@@ -1,5 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import message 
+from pyrogram.types import InlineKeyboardMarkup InlineKeyboardButton 
+
 
 API_ID = "12360947"
 API_HASH = "3dddbb5be694212e7954f7fdd5960a24"
@@ -12,17 +14,24 @@ BOT = Client(
     api_hash=API_HASH,
     bot_token=BOT_TOKEN
 )
+START_BUTTON= [[
+  InlineKeyboardButton("Owner", url="t.me/Lion_098765")
+  ],[
+  InlineKeyboardButton("group", url="t.me/rrmovie0987")
+  ]]
+
 
 @BOT.on_message(filters.command("start"))
 async def start_command(bot, message):
-    await message.reply_text("hi {mention} sugamanno 🤝")
+    await message.reply_text(
+        text="hai hello"
+        reply_markup=
     
-    
-    
+  )
 @BOT.on_message(filter.command("help"))
 async def help_command(bot, message):
-     await message.reply_text("help🆘")
-        
+     await message.reply_text(
+           
         
 
 print("Bot started")
